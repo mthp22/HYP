@@ -1,0 +1,67 @@
+================================================================================
+STEGANANALYSIS BENCHMARK REPORT
+================================================================================
+Generated: 2025-08-04 21:06:40
+Total Files Analyzed: 2
+Methods Tested: LSB, DCT, CNN
+
+INDIVIDUAL METHOD PERFORMANCE
+--------------------------------------------------
+
+LSB:
+  Files Analyzed: 2
+  Errors: 0
+  Accuracy: 0.500 (50.0%)
+  Precision: 0.000
+  Recall: 0.000
+  F1-Score: 0.000
+  Avg Execution Time: 261.666s
+  Avg Confidence: 0.205
+
+DCT:
+  Files Analyzed: 2
+  Errors: 0
+  Accuracy: 0.500 (50.0%)
+  Precision: 0.500
+  Recall: 1.000
+  F1-Score: 0.667
+  Avg Execution Time: 8.055s
+  Avg Confidence: 0.841
+
+CNN:
+  Files Analyzed: 2
+  Errors: 0
+  Accuracy: 0.000 (0.0%)
+  Precision: 0.000
+  Recall: 0.000
+  F1-Score: 0.000
+  Avg Execution Time: 1.291s
+  Avg Confidence: 0.520
+
+ENSEMBLE PERFORMANCE
+--------------------------------------------------
+Files Analyzed: 2
+Accuracy: 0.000 (0.0%)
+Precision: 0.000
+Recall: 0.000
+F1-Score: 0.000
+Avg Confidence: 0.522
+
+PERFORMANCE RANKING
+--------------------------------------------------
+By Accuracy:
+  1. LSB: 0.500
+  2. DCT: 0.500
+  3. CNN: 0.000
+
+By F1-Score:
+  1. DCT: 0.667
+  2. LSB: 0.000
+  3. CNN: 0.000
+
+By Speed (fastest first):
+  1. CNN: 1.291s
+  2. DCT: 8.055s
+  3. LSB: 261.666s
+
+================================================================================

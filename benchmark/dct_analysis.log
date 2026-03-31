@@ -1,0 +1,150 @@
+2025-08-04 20:04:25,291 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpikcc9t8h.png
+2025-08-04 20:04:25,308 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 20:04:25,309 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 20:04:25,316 - DCTAnalyser - INFO - File tmpikcc9t8h.png has indicators: ['high_entropy']
+2025-08-04 20:04:25,317 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 20:04:25,481 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 20:04:25,482 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:04:29,575 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:04:29,826 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmpikcc9t8h.png: Result=STEGO, Confidence=0.849, Anomaly_Score=0.2793
+2025-08-04 20:04:30,237 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:04:30,238 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:04:30,238 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:04:30,239 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpnqlo3jj3.png
+2025-08-04 20:04:30,668 - CNNAnalyser - INFO - Analysis complete. Result: STEGO with 0.56 confidence (time: 0.43s)
+2025-08-04 20:10:46,077 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpa91ofv_n.png
+2025-08-04 20:10:46,089 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 20:10:46,092 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 20:10:46,113 - DCTAnalyser - INFO - File tmpa91ofv_n.png has indicators: ['high_entropy']
+2025-08-04 20:10:46,115 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 20:10:46,498 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 20:10:46,499 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:10:55,776 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:10:56,491 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmpa91ofv_n.png: Result=STEGO, Confidence=0.838, Anomaly_Score=0.2702
+2025-08-04 20:10:57,551 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:10:57,554 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:10:57,556 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:10:57,557 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpkwzfymgr.png
+2025-08-04 20:10:58,238 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.48 confidence (time: 0.68s)
+2025-08-04 20:17:28,352 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\1.png
+2025-08-04 20:17:28,390 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:17:28,433 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-08-04 20:17:28,434 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:17:30,000 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:17:30,109 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4885
+2025-08-04 20:17:30,525 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:17:30,526 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:17:30,526 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:17:30,526 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\1.png
+2025-08-04 20:17:30,919 - CNNAnalyser - INFO - Analysis complete. Result: STEGO with 0.56 confidence (time: 0.39s)
+2025-08-04 20:20:50,180 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\10.png
+2025-08-04 20:20:50,202 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:20:50,228 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:20:50,229 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:20:51,772 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:20:51,889 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\10.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.5033
+2025-08-04 20:20:52,336 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:20:52,338 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:20:52,339 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:20:52,339 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\10.png
+2025-08-04 20:20:52,753 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.48 confidence (time: 0.41s)
+2025-08-04 20:24:08,607 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\100.png
+2025-08-04 20:24:08,633 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:24:08,669 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-08-04 20:24:08,669 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:24:10,710 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:24:10,852 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\100.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4965
+2025-08-04 20:24:11,319 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:24:11,320 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:24:11,322 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:24:11,323 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\100.png
+2025-08-04 20:24:11,694 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.37s)
+2025-08-04 20:27:50,072 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpumh01w7e.png
+2025-08-04 20:27:50,079 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 20:27:50,080 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 20:27:50,088 - DCTAnalyser - INFO - File tmpumh01w7e.png has indicators: ['high_entropy']
+2025-08-04 20:27:50,089 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 20:27:50,239 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 20:27:50,240 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:27:56,277 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:27:56,539 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmpumh01w7e.png: Result=STEGO, Confidence=0.828, Anomaly_Score=0.2625
+2025-08-04 20:27:56,915 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:27:56,915 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:27:56,916 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:27:56,916 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpzoo_knkx.png
+2025-08-04 20:27:57,302 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.39s)
+2025-08-04 20:31:29,189 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpay6dw9mn.png
+2025-08-04 20:31:29,195 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 20:31:29,195 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 20:31:29,202 - DCTAnalyser - INFO - File tmpay6dw9mn.png has indicators: ['high_entropy']
+2025-08-04 20:31:29,203 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 20:31:29,357 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 20:31:29,357 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:31:34,296 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:31:34,600 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmpay6dw9mn.png: Result=STEGO, Confidence=0.846, Anomaly_Score=0.2766
+2025-08-04 20:31:34,938 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:31:34,938 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:31:34,939 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:31:34,939 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmp6qckc8ym.png
+2025-08-04 20:31:35,321 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.38s)
+2025-08-04 20:34:58,986 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-08-04 20:34:58,994 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:34:59,013 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:34:59,014 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:35:00,619 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:35:00,788 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4926
+2025-08-04 20:35:01,809 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:35:01,815 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:35:01,817 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:35:01,818 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-08-04 20:35:03,241 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.48 confidence (time: 1.42s)
+2025-08-04 20:38:50,508 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\10.png
+2025-08-04 20:38:50,518 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:38:50,536 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:38:50,536 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:38:52,034 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:38:52,135 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\10.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4976
+2025-08-04 20:38:52,408 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:38:52,408 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:38:52,409 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:38:52,409 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\10.png
+2025-08-04 20:38:52,740 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.33s)
+2025-08-04 20:41:57,307 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\100.png
+2025-08-04 20:41:57,338 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:41:57,383 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:41:57,384 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:41:59,545 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:41:59,720 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\100.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4863
+2025-08-04 20:42:00,065 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 20:42:00,066 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 20:42:00,067 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 20:42:00,067 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\100.png
+2025-08-04 20:42:00,442 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.37s)
+2025-08-04 21:01:24,445 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmp485ry80r.png
+2025-08-04 21:01:24,466 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 21:01:24,467 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 21:01:24,480 - DCTAnalyser - INFO - File tmp485ry80r.png has indicators: ['high_entropy']
+2025-08-04 21:01:24,480 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 21:01:24,734 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 21:01:24,734 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 21:01:34,492 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 21:01:35,098 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmp485ry80r.png: Result=STEGO, Confidence=0.837, Anomaly_Score=0.2694
+2025-08-04 21:01:35,833 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 21:01:35,835 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 21:01:35,835 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 21:01:35,836 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpttcidwe6.png
+2025-08-04 21:01:36,558 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.48 confidence (time: 0.72s)
+2025-08-04 21:06:33,935 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmp4wdy95a2.png
+2025-08-04 21:06:33,980 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 21:06:33,983 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 21:06:34,005 - DCTAnalyser - INFO - File tmp4wdy95a2.png has indicators: ['high_entropy']
+2025-08-04 21:06:34,006 - DCTAnalyser - INFO - Simulating as stego image
+2025-08-04 21:06:34,199 - DCTAnalyser - INFO - Simulated 3072 blocks for suspicious image
+2025-08-04 21:06:34,200 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 21:06:38,980 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 21:06:39,317 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\AppData\Local\Temp\tmp4wdy95a2.png: Result=STEGO, Confidence=0.846, Anomaly_Score=0.2766
+2025-08-04 21:06:39,947 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-08-04 21:06:39,949 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-08-04 21:06:39,950 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-08-04 21:06:39,951 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\AppData\Local\Temp\tmpv5w4dj9z.png
+2025-08-04 21:06:40,519 - CNNAnalyser - INFO - Analysis complete. Result: STEGO with 0.56 confidence (time: 0.57s)

@@ -1,0 +1,552 @@
+{
+  "statistics": {
+    "total_files": 2,
+    "methods": {
+      "LSB": {
+        "total_analyzed": 2,
+        "errors": 0,
+        "correct_predictions": 1,
+        "true_positives": 0,
+        "true_negatives": 1,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "execution_times": [
+          226.40157175064087,
+          296.9296360015869
+        ],
+        "confidences": [
+          0.20547392061863706,
+          0.20547392061863706
+        ],
+        "accuracy": 0.5,
+        "precision": 0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "avg_execution_time": 261.6656038761139,
+        "avg_confidence": 0.20547392061863706
+      },
+      "DCT": {
+        "total_analyzed": 2,
+        "errors": 0,
+        "correct_predictions": 1,
+        "true_positives": 1,
+        "true_negatives": 0,
+        "false_positives": 1,
+        "false_negatives": 0,
+        "execution_times": [
+          10.692327976226807,
+          5.417568683624268
+        ],
+        "confidences": [
+          0.8367030487416229,
+          0.8457547166375291
+        ],
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1_score": 0.6666666666666666,
+        "avg_execution_time": 8.054948329925537,
+        "avg_confidence": 0.841228882689576
+      },
+      "CNN": {
+        "total_analyzed": 2,
+        "errors": 0,
+        "correct_predictions": 0,
+        "true_positives": 0,
+        "true_negatives": 0,
+        "false_positives": 1,
+        "false_negatives": 1,
+        "execution_times": [
+          1.3990387916564941,
+          1.1820974349975586
+        ],
+        "confidences": [
+          0.48,
+          0.56
+        ],
+        "accuracy": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "avg_execution_time": 1.2905681133270264,
+        "avg_confidence": 0.52
+      }
+    },
+    "ensemble": {
+      "total_analyzed": 2,
+      "correct_predictions": 0,
+      "true_positives": 0,
+      "true_negatives": 0,
+      "false_positives": 1,
+      "false_negatives": 1,
+      "confidences": [
+        0.5073923231200866,
+        0.537076212418722
+      ],
+      "accuracy": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "avg_confidence": 0.5222342677694043
+    },
+    "overall_summary": {}
+  },
+  "raw_results": [
+    {
+      "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+      "file_name": "1.bmp",
+      "ground_truth": "stego",
+      "timestamp": "2025-08-04T20:57:37.659275",
+      "method_results": {
+        "LSB": {
+          "method": "LSB",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": false,
+          "confidence": 0.20547392061863706,
+          "classification": "likely_clean",
+          "entropy": 0.6466022122480651,
+          "chi_square": 20372.3701171875,
+          "z_score": -329.07495474055844,
+          "execution_time": 226.40157175064087,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": false,
+            "false_negative": true
+          }
+        },
+        "DCT": {
+          "method": "DCT",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": true,
+          "confidence": 0.8367030487416229,
+          "classification": "unknown",
+          "execution_time": 10.692327976226807,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": true,
+            "true_positive": true,
+            "true_negative": false,
+            "false_positive": false,
+            "false_negative": false
+          }
+        },
+        "CNN": {
+          "method": "CNN",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": false,
+          "confidence": 0.48,
+          "classification": "unknown",
+          "execution_time": 1.3990387916564941,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": false,
+            "false_negative": true
+          }
+        }
+      },
+      "ensemble_result": {
+        "ensemble_classification": "clean",
+        "ensemble_confidence": 0.5073923231200866,
+        "ensemble_score": 0.39228005469866106,
+        "ensemble_is_stego": false,
+        "method": "ensemble",
+        "contributing_methods": [
+          "LSB",
+          "DCT",
+          "CNN"
+        ],
+        "method_weights": {
+          "LSB": 0.4,
+          "DCT": 0.35,
+          "CNN": 0.25
+        },
+        "accuracy_metrics": {
+          "correct_prediction": false,
+          "true_positive": false,
+          "true_negative": false,
+          "false_positive": false,
+          "false_negative": true
+        }
+      },
+      "comparison_analysis": {
+        "total_methods": 3,
+        "methods_used": [
+          "LSB",
+          "DCT",
+          "CNN"
+        ],
+        "individual_results": {
+          "LSB": {
+            "method": "LSB",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": false,
+            "confidence": 0.20547392061863706,
+            "classification": "likely_clean",
+            "entropy": 0.6466022122480651,
+            "chi_square": 20372.3701171875,
+            "z_score": -329.07495474055844,
+            "execution_time": 226.40157175064087,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": false,
+              "true_positive": false,
+              "true_negative": false,
+              "false_positive": false,
+              "false_negative": true
+            }
+          },
+          "DCT": {
+            "method": "DCT",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": true,
+            "confidence": 0.8367030487416229,
+            "classification": "unknown",
+            "execution_time": 10.692327976226807,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": true,
+              "true_positive": true,
+              "true_negative": false,
+              "false_positive": false,
+              "false_negative": false
+            }
+          },
+          "CNN": {
+            "method": "CNN",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": false,
+            "confidence": 0.48,
+            "classification": "unknown",
+            "execution_time": 1.3990387916564941,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": false,
+              "true_positive": false,
+              "true_negative": false,
+              "false_positive": false,
+              "false_negative": true
+            }
+          }
+        },
+        "consensus_analysis": {
+          "consensus": "clean",
+          "agreement_score": 0.6666666666666666,
+          "stego_votes": 1,
+          "total_votes": 3,
+          "weighted_consensus": 0.5496752779627668,
+          "unanimous": false
+        },
+        "performance_analysis": {
+          "LSB": {
+            "execution_time": 226.40157175064087,
+            "confidence": 0.20547392061863706,
+            "classification": "likely_clean",
+            "is_stego": false,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "DCT": {
+            "execution_time": 10.692327976226807,
+            "confidence": 0.8367030487416229,
+            "classification": "unknown",
+            "is_stego": true,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "CNN": {
+            "execution_time": 1.3990387916564941,
+            "confidence": 0.48,
+            "classification": "unknown",
+            "is_stego": false,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "summary": {
+            "fastest_method": "CNN",
+            "fastest_time": 1.3990387916564941,
+            "most_confident_method": "DCT",
+            "highest_confidence": 0.8367030487416229,
+            "total_execution_time": 238.49293851852417,
+            "average_confidence": 0.5073923231200866
+          }
+        },
+        "ensemble_prediction": {
+          "ensemble_classification": "clean",
+          "ensemble_confidence": 0.5073923231200866,
+          "ensemble_score": 0.39228005469866106,
+          "ensemble_is_stego": false,
+          "method": "ensemble",
+          "contributing_methods": [
+            "LSB",
+            "DCT",
+            "CNN"
+          ],
+          "method_weights": {
+            "LSB": 0.4,
+            "DCT": 0.35,
+            "CNN": 0.25
+          },
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": false,
+            "false_negative": true
+          }
+        }
+      }
+    },
+    {
+      "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+      "file_name": "1.bmp",
+      "ground_truth": "clean",
+      "timestamp": "2025-08-04T21:01:36.562135",
+      "method_results": {
+        "LSB": {
+          "method": "LSB",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": false,
+          "confidence": 0.20547392061863706,
+          "classification": "likely_clean",
+          "entropy": 0.6466022122480651,
+          "chi_square": 20372.3701171875,
+          "z_score": -329.07495474055844,
+          "execution_time": 296.9296360015869,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": true,
+            "true_positive": false,
+            "true_negative": true,
+            "false_positive": false,
+            "false_negative": false
+          }
+        },
+        "DCT": {
+          "method": "DCT",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": true,
+          "confidence": 0.8457547166375291,
+          "classification": "unknown",
+          "execution_time": 5.417568683624268,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": true,
+            "false_negative": false
+          }
+        },
+        "CNN": {
+          "method": "CNN",
+          "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+          "file_name": "1.bmp",
+          "is_stego": true,
+          "confidence": 0.56,
+          "classification": "unknown",
+          "execution_time": 1.1820974349975586,
+          "quick_mode": false,
+          "converted_from": ".bmp",
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": true,
+            "false_negative": false
+          }
+        }
+      },
+      "ensemble_result": {
+        "ensemble_classification": "stego",
+        "ensemble_confidence": 0.537076212418722,
+        "ensemble_score": 0.6438682426641889,
+        "ensemble_is_stego": true,
+        "method": "ensemble",
+        "contributing_methods": [
+          "LSB",
+          "DCT",
+          "CNN"
+        ],
+        "method_weights": {
+          "LSB": 0.4,
+          "DCT": 0.35,
+          "CNN": 0.25
+        },
+        "accuracy_metrics": {
+          "correct_prediction": false,
+          "true_positive": false,
+          "true_negative": false,
+          "false_positive": true,
+          "false_negative": false
+        }
+      },
+      "comparison_analysis": {
+        "total_methods": 3,
+        "methods_used": [
+          "LSB",
+          "DCT",
+          "CNN"
+        ],
+        "individual_results": {
+          "LSB": {
+            "method": "LSB",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": false,
+            "confidence": 0.20547392061863706,
+            "classification": "likely_clean",
+            "entropy": 0.6466022122480651,
+            "chi_square": 20372.3701171875,
+            "z_score": -329.07495474055844,
+            "execution_time": 296.9296360015869,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": true,
+              "true_positive": false,
+              "true_negative": true,
+              "false_positive": false,
+              "false_negative": false
+            }
+          },
+          "DCT": {
+            "method": "DCT",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": true,
+            "confidence": 0.8457547166375291,
+            "classification": "unknown",
+            "execution_time": 5.417568683624268,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": false,
+              "true_positive": false,
+              "true_negative": false,
+              "false_positive": true,
+              "false_negative": false
+            }
+          },
+          "CNN": {
+            "method": "CNN",
+            "file_path": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover\\1.bmp",
+            "file_name": "1.bmp",
+            "is_stego": true,
+            "confidence": 0.56,
+            "classification": "unknown",
+            "execution_time": 1.1820974349975586,
+            "quick_mode": false,
+            "converted_from": ".bmp",
+            "accuracy_metrics": {
+              "correct_prediction": false,
+              "true_positive": false,
+              "true_negative": false,
+              "false_positive": true,
+              "false_negative": false
+            }
+          }
+        },
+        "consensus_analysis": {
+          "consensus": "stego",
+          "agreement_score": 0.6666666666666666,
+          "stego_votes": 2,
+          "total_votes": 3,
+          "weighted_consensus": 0.8724737657539728,
+          "unanimous": false
+        },
+        "performance_analysis": {
+          "LSB": {
+            "execution_time": 296.9296360015869,
+            "confidence": 0.20547392061863706,
+            "classification": "likely_clean",
+            "is_stego": false,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "DCT": {
+            "execution_time": 5.417568683624268,
+            "confidence": 0.8457547166375291,
+            "classification": "unknown",
+            "is_stego": true,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "CNN": {
+            "execution_time": 1.1820974349975586,
+            "confidence": 0.56,
+            "classification": "unknown",
+            "is_stego": true,
+            "quick_mode": false,
+            "converted_from": ".bmp"
+          },
+          "summary": {
+            "fastest_method": "CNN",
+            "fastest_time": 1.1820974349975586,
+            "most_confident_method": "DCT",
+            "highest_confidence": 0.8457547166375291,
+            "total_execution_time": 303.52930212020874,
+            "average_confidence": 0.537076212418722
+          }
+        },
+        "ensemble_prediction": {
+          "ensemble_classification": "stego",
+          "ensemble_confidence": 0.537076212418722,
+          "ensemble_score": 0.6438682426641889,
+          "ensemble_is_stego": true,
+          "method": "ensemble",
+          "contributing_methods": [
+            "LSB",
+            "DCT",
+            "CNN"
+          ],
+          "method_weights": {
+            "LSB": 0.4,
+            "DCT": 0.35,
+            "CNN": 0.25
+          },
+          "accuracy_metrics": {
+            "correct_prediction": false,
+            "true_positive": false,
+            "true_negative": false,
+            "false_positive": true,
+            "false_negative": false
+          }
+        }
+      }
+    }
+  ],
+  "benchmark_info": {
+    "timestamp": "2025-08-04T21:06:40.562388",
+    "methods_tested": [
+      "LSB",
+      "DCT",
+      "CNN"
+    ],
+    "dataset_paths": {
+      "cover": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\cover",
+      "stego": "C:\\Users\\lmathope\\Desktop\\Dev\\hyp\\data\\datasets\\stego"
+    }
+  }
+}

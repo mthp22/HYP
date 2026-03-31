@@ -1,0 +1,394 @@
+2025-08-04 20:33:03,556 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-08-04 20:33:03,558 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:33:03,573 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:33:03,573 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:33:03,880 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.jpeg
+2025-08-04 20:33:03,882 - DCTAnalyser - INFO - Extracting 3072 blocks (32x32x3)
+2025-08-04 20:33:03,953 - DCTAnalyser - INFO - Extracted 3072 blocks from file with entropy 7.71
+2025-08-04 20:33:03,954 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:33:05,729 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:33:05,830 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4929
+2025-08-04 20:33:08,866 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:33:09,146 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.jpeg: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4864
+2025-08-04 20:33:37,908 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.bmp
+2025-08-04 20:33:37,910 - DCTAnalyser - ERROR - Error parsing JPEG header: Not a valid JPEG file
+2025-08-04 20:33:37,911 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-08-04 20:33:37,916 - DCTAnalyser - INFO - File 1.bmp has indicators: []
+2025-08-04 20:33:37,916 - DCTAnalyser - INFO - Simulating as clean image
+2025-08-04 20:33:37,996 - DCTAnalyser - INFO - Simulated 3888 blocks for clean image
+2025-08-04 20:33:37,997 - DCTAnalyser - INFO - Loaded 3888 blocks for analysis
+2025-08-04 20:33:43,199 - DCTAnalyser - INFO - Successfully processed 3888 coefficient blocks
+2025-08-04 20:33:43,646 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.bmp: Result=STEGO, Confidence=0.714, Anomaly_Score=0.2213
+2025-08-04 20:34:29,592 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-08-04 20:34:29,594 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-08-04 20:34:29,611 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-08-04 20:34:29,612 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-08-04 20:34:31,053 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-08-04 20:34:31,141 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4917
+2025-08-04 20:34:47,036 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.jpeg
+2025-08-04 20:34:47,037 - DCTAnalyser - INFO - Extracting 3072 blocks (32x32x3)
+2025-08-04 20:34:47,088 - DCTAnalyser - INFO - Extracted 3072 blocks from file with entropy 7.71
+2025-08-04 20:34:47,089 - DCTAnalyser - INFO - Loaded 3072 blocks for analysis
+2025-08-04 20:34:51,536 - DCTAnalyser - INFO - Successfully processed 3072 coefficient blocks
+2025-08-04 20:34:51,789 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.jpeg: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4860
+2025-09-08 17:51:49,742 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\1.png
+2025-09-08 17:51:49,745 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-09-08 17:51:49,775 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-09-08 17:51:49,775 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-09-08 17:51:51,882 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-09-08 17:51:52,001 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4915
+2025-09-08 17:52:03,379 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-09-08 17:52:03,381 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-09-08 17:52:03,407 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-09-08 17:52:03,408 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-09-08 17:52:05,219 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-09-08 17:52:05,346 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4934
+2025-09-08 17:58:02,451 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-09-08 17:58:02,454 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-09-08 17:58:02,487 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-09-08 17:58:02,488 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-09-08 17:58:04,469 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-09-08 17:58:04,594 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4928
+2025-10-01 20:02:45,337 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:02:45,340 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 20:02:45,368 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.88
+2025-10-01 20:02:45,368 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 20:02:46,684 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 20:02:46,765 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4875
+2025-10-01 20:03:20,360 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 20:03:20,362 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 20:03:20,383 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.89
+2025-10-01 20:03:20,384 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 20:03:21,689 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 20:03:21,776 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4823
+2025-10-01 20:04:33,847 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 20:04:33,851 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 20:04:33,881 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.89
+2025-10-01 20:04:33,881 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 20:04:35,226 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 20:04:35,311 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4849
+2025-10-01 20:04:46,179 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:04:46,181 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 20:04:46,197 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.88
+2025-10-01 20:04:46,198 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 20:04:47,521 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 20:04:47,606 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=STEGO, Confidence=1.000, Anomaly_Score=0.4873
+2025-10-01 20:47:07,202 - DCTAnalyser - INFO - DCT Analyser initialized with improved thresholds
+2025-10-01 20:47:07,205 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:47:07,207 - DCTAnalyser - WARNING - Failed to parse JPEG header: 'DCTAnalyser' object has no attribute '_extract_image_blocks', using simulation
+2025-10-01 20:47:07,207 - DCTAnalyser - INFO - Simulating JPEG blocks with improved detection logic
+2025-10-01 20:47:07,209 - DCTAnalyser - INFO - Generating 12288 blocks, stego likelihood: False
+2025-10-01 20:47:07,478 - DCTAnalyser - INFO - Generated 12288 blocks (clean-like)
+2025-10-01 20:47:07,479 - DCTAnalyser - INFO - Loaded 12288 blocks for analysis
+2025-10-01 20:47:28,987 - DCTAnalyser - INFO - Successfully processed 12288 coefficient blocks
+2025-10-01 20:47:29,341 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.832, Anomaly_Score=0.1847
+2025-10-01 20:47:43,792 - DCTAnalyser - INFO - DCT Analyser initialized with improved thresholds
+2025-10-01 20:47:43,792 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 20:47:43,803 - DCTAnalyser - WARNING - Failed to parse JPEG header: 'DCTAnalyser' object has no attribute '_extract_image_blocks', using simulation
+2025-10-01 20:47:43,804 - DCTAnalyser - INFO - Simulating JPEG blocks with improved detection logic
+2025-10-01 20:47:43,806 - DCTAnalyser - INFO - Generating 12288 blocks, stego likelihood: False
+2025-10-01 20:47:44,042 - DCTAnalyser - INFO - Generated 12288 blocks (clean-like)
+2025-10-01 20:47:44,043 - DCTAnalyser - INFO - Loaded 12288 blocks for analysis
+2025-10-01 20:48:04,926 - DCTAnalyser - INFO - Successfully processed 12288 coefficient blocks
+2025-10-01 20:48:05,318 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.832, Anomaly_Score=0.1845
+2025-10-01 20:48:35,249 - DCTAnalyser - INFO - DCT Analyser initialized with improved thresholds
+2025-10-01 20:48:35,251 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png
+2025-10-01 20:48:35,252 - DCTAnalyser - WARNING - Failed to parse JPEG header: 'DCTAnalyser' object has no attribute '_extract_image_blocks', using simulation
+2025-10-01 20:48:35,253 - DCTAnalyser - INFO - Simulating JPEG blocks with improved detection logic
+2025-10-01 20:48:35,255 - DCTAnalyser - INFO - Generating 12288 blocks, stego likelihood: False
+2025-10-01 20:48:35,488 - DCTAnalyser - INFO - Generated 12288 blocks (clean-like)
+2025-10-01 20:48:35,488 - DCTAnalyser - INFO - Loaded 12288 blocks for analysis
+2025-10-01 20:48:57,259 - DCTAnalyser - INFO - Successfully processed 12288 coefficient blocks
+2025-10-01 20:48:57,603 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png: Result=CLEAN, Confidence=0.832, Anomaly_Score=0.1854
+2025-10-01 20:52:07,193 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:52:07,194 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png
+2025-10-01 20:52:07,198 - DCTAnalyser - INFO - File entropy: 7.94
+2025-10-01 20:52:07,296 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:52:07,297 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:52:07,299 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:52:07,301 - DCTAnalyser - INFO - File 5.png has indicators: ['high_entropy']
+2025-10-01 20:52:07,301 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 20:52:07,318 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 20:52:07,318 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:52:08,884 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:52:08,903 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 20:52:15,457 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:52:15,458 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:52:15,460 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 20:52:15,549 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:52:15,550 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:52:15,552 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:52:15,555 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 20:52:15,555 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 20:52:15,575 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 20:52:15,576 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:52:16,966 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:52:16,979 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 20:52:53,246 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:52:53,247 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 20:52:53,249 - DCTAnalyser - INFO - File entropy: 7.93
+2025-10-01 20:52:53,331 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:52:53,332 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:52:53,333 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:52:53,335 - DCTAnalyser - INFO - File 20.png has indicators: ['high_entropy']
+2025-10-01 20:52:53,335 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 20:52:53,357 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 20:52:53,358 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:52:54,749 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:52:54,762 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 20:58:50,074 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:58:50,075 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 20:58:50,078 - DCTAnalyser - INFO - File entropy: 7.93
+2025-10-01 20:58:50,196 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:58:50,197 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:58:50,198 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:58:50,200 - DCTAnalyser - INFO - File 20.png has indicators: ['high_entropy']
+2025-10-01 20:58:50,200 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 20:58:50,217 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 20:58:50,218 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:58:51,507 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:58:51,524 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=CLEAN, Confidence=0.467, Anomaly_Score=0.3836
+2025-10-01 20:58:58,649 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:58:58,650 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:58:58,652 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 20:58:58,736 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:58:58,736 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:58:58,739 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:58:58,741 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 20:58:58,742 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 20:58:58,756 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 20:58:58,756 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:59:00,040 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:59:00,056 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.458, Anomaly_Score=0.3791
+2025-10-01 20:59:03,983 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:59:03,984 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png
+2025-10-01 20:59:03,987 - DCTAnalyser - INFO - File entropy: 7.94
+2025-10-01 20:59:04,068 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:59:04,068 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:59:04,070 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:59:04,072 - DCTAnalyser - INFO - File 5.png has indicators: ['high_entropy']
+2025-10-01 20:59:04,072 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 20:59:04,088 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 20:59:04,089 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:59:05,350 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:59:05,364 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png: Result=CLEAN, Confidence=0.455, Anomaly_Score=0.3775
+2025-10-01 20:59:10,008 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:59:10,008 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 20:59:10,010 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 20:59:10,091 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:59:10,091 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:59:10,093 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:59:10,094 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 20:59:10,094 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 20:59:10,108 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 20:59:10,108 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:59:11,378 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:59:11,391 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.477, Anomaly_Score=0.3883
+2025-10-01 20:59:17,957 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 20:59:17,959 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 20:59:17,962 - DCTAnalyser - INFO - File entropy: 7.89
+2025-10-01 20:59:18,032 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 20:59:18,032 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 20:59:18,034 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 20:59:18,035 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 20:59:18,035 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 20:59:18,051 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 20:59:18,052 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 20:59:19,320 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 20:59:19,333 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.431, Anomaly_Score=0.3654
+2025-10-01 21:00:16,060 - DCTAnalyser - INFO - DCT Analyser initialized with improved thresholds
+2025-10-01 21:00:16,061 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:00:16,062 - DCTAnalyser - WARNING - Failed to parse JPEG header: 'DCTAnalyser' object has no attribute '_extract_image_blocks', using simulation
+2025-10-01 21:00:16,063 - DCTAnalyser - INFO - Simulating JPEG blocks with improved detection logic
+2025-10-01 21:00:16,064 - DCTAnalyser - INFO - Generating 12288 blocks, stego likelihood: False
+2025-10-01 21:00:16,295 - DCTAnalyser - INFO - Generated 12288 blocks (clean-like)
+2025-10-01 21:00:16,296 - DCTAnalyser - INFO - Loaded 12288 blocks for analysis
+2025-10-01 21:00:37,819 - DCTAnalyser - INFO - Successfully processed 12288 coefficient blocks
+2025-10-01 21:00:38,161 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.832, Anomaly_Score=0.1855
+2025-10-01 21:00:43,564 - DCTAnalyser - INFO - DCT Analyser initialized with improved thresholds
+2025-10-01 21:00:43,564 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:00:43,567 - DCTAnalyser - WARNING - Failed to parse JPEG header: 'DCTAnalyser' object has no attribute '_extract_image_blocks', using simulation
+2025-10-01 21:00:43,567 - DCTAnalyser - INFO - Simulating JPEG blocks with improved detection logic
+2025-10-01 21:00:43,569 - DCTAnalyser - INFO - Generating 12288 blocks, stego likelihood: False
+2025-10-01 21:00:43,804 - DCTAnalyser - INFO - Generated 12288 blocks (clean-like)
+2025-10-01 21:00:43,804 - DCTAnalyser - INFO - Loaded 12288 blocks for analysis
+2025-10-01 21:00:59,911 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:00:59,911 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:00:59,913 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 21:01:00,036 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:01:00,036 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:01:00,038 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:01:00,039 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:01:00,039 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 21:01:00,053 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 21:01:00,054 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:01:01,338 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:01:01,352 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:01:04,505 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:01:04,505 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:01:04,508 - DCTAnalyser - INFO - File entropy: 7.89
+2025-10-01 21:01:04,581 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:01:04,582 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:01:04,584 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:01:04,585 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:01:04,586 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:01:04,602 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:01:04,603 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:01:05,860 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:01:05,875 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:01:32,204 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:01:32,206 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:01:32,227 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.88
+2025-10-01 21:01:32,228 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:01:33,535 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:01:33,622 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4871
+2025-10-01 21:01:37,851 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:01:37,853 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:01:37,882 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.89
+2025-10-01 21:01:37,883 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:01:39,272 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:01:39,359 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=STEGO, Confidence=0.110, Anomaly_Score=0.4858
+2025-10-01 21:01:43,879 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:01:43,880 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:01:43,882 - DCTAnalyser - INFO - File entropy: 7.89
+2025-10-01 21:01:43,962 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:01:43,963 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:01:43,964 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:01:43,966 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:01:43,966 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:01:43,987 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:01:43,988 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:01:45,282 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:01:45,316 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:01:50,359 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:01:50,360 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:01:50,361 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 21:01:50,444 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:01:50,445 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:01:50,446 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:01:50,448 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:01:50,448 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 21:01:50,463 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 21:01:50,464 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:01:51,767 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:01:51,780 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:01:55,173 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:01:55,173 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 21:01:55,176 - DCTAnalyser - INFO - File entropy: 7.93
+2025-10-01 21:01:55,273 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:01:55,274 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:01:55,275 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:01:55,277 - DCTAnalyser - INFO - File 20.png has indicators: ['high_entropy']
+2025-10-01 21:01:55,277 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:01:55,296 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:01:55,297 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:01:56,596 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:01:56,609 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:02:03,404 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:02:03,404 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:02:03,406 - DCTAnalyser - INFO - File entropy: 7.89
+2025-10-01 21:02:03,479 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:02:03,479 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:02:03,481 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:02:03,483 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:02:03,483 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:02:03,498 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:02:03,499 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:02:04,770 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:02:04,785 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:02:24,779 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:02:24,780 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:02:24,782 - DCTAnalyser - INFO - File entropy: 7.89
+2025-10-01 21:02:24,862 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:02:24,862 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:02:24,865 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:02:24,867 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:02:24,867 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:02:24,885 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:02:24,886 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:02:26,218 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:02:26,232 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:02:39,479 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:02:39,480 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:02:39,482 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 21:02:39,564 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:02:39,565 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:02:39,566 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:02:39,568 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:02:39,568 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 21:02:39,583 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 21:02:39,583 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:02:40,855 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:02:40,869 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:03:37,897 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:03:37,899 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:03:37,917 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.89
+2025-10-01 21:03:37,918 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:03:39,264 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:03:39,348 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4847
+2025-10-01 21:04:00,790 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:04:00,791 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png
+2025-10-01 21:04:00,794 - DCTAnalyser - INFO - File entropy: 7.94
+2025-10-01 21:04:00,872 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:04:00,872 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:04:00,874 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:04:00,875 - DCTAnalyser - INFO - File 5.png has indicators: ['high_entropy']
+2025-10-01 21:04:00,876 - DCTAnalyser - INFO - Simulating as stego image
+2025-10-01 21:04:00,899 - DCTAnalyser - INFO - Simulated 768 blocks for suspicious image
+2025-10-01 21:04:00,900 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:04:02,180 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:04:02,193 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:04:08,156 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:04:08,156 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:04:08,159 - DCTAnalyser - INFO - File entropy: 7.88
+2025-10-01 21:04:08,231 - DCTAnalyser - INFO - Extracted 3072 blocks from image
+2025-10-01 21:04:08,232 - DCTAnalyser - ERROR - Error extracting blocks: name 'file_path' is not defined
+2025-10-01 21:04:08,234 - DCTAnalyser - INFO - Simulating JPEG blocks for analysis
+2025-10-01 21:04:08,235 - DCTAnalyser - INFO - File 2.png has indicators: ['high_entropy']
+2025-10-01 21:04:08,236 - DCTAnalyser - INFO - Simulating as clean image
+2025-10-01 21:04:08,250 - DCTAnalyser - INFO - Simulated 768 blocks for clean image
+2025-10-01 21:04:08,251 - DCTAnalyser - INFO - Loaded 768 blocks for analysis
+2025-10-01 21:04:09,522 - DCTAnalyser - INFO - Successfully processed 768 coefficient blocks
+2025-10-01 21:04:09,535 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.500, Anomaly_Score=0.3600
+2025-10-01 21:04:17,977 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 21:04:17,979 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:04:17,997 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-10-01 21:04:17,998 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:04:19,300 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:04:19,383 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=STEGO, Confidence=0.119, Anomaly_Score=0.4834
+2025-10-01 21:12:32,345 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 21:12:32,348 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:12:32,377 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-10-01 21:12:32,378 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:12:33,768 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:12:33,851 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4860
+2025-10-01 21:12:40,377 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:12:40,377 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-10-01 21:12:40,414 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:12:40,435 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.88
+2025-10-01 21:12:40,436 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:12:42,223 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:12:42,242 - DCTAnalyser - INFO - Feature scores - LSB: 0.100, Histogram: 0.100, Frequency: 0.300, Coefficient: 0.800
+2025-10-01 21:12:42,242 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png: Result=CLEAN, Confidence=0.100, Anomaly_Score=0.2550
+2025-10-01 21:12:55,452 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:12:55,452 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png
+2025-10-01 21:12:55,480 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:12:55,502 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.94
+2025-10-01 21:12:55,502 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:12:57,193 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:12:57,213 - DCTAnalyser - INFO - Feature scores - LSB: 0.100, Histogram: 0.100, Frequency: 0.300, Coefficient: 0.800
+2025-10-01 21:12:57,214 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\5.png: Result=CLEAN, Confidence=0.100, Anomaly_Score=0.2550
+2025-10-01 21:13:02,355 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png
+2025-10-01 21:13:02,357 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:13:02,377 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.89
+2025-10-01 21:13:02,377 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:13:03,675 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:13:03,757 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\2.png: Result=STEGO, Confidence=0.100, Anomaly_Score=0.4844
+2025-10-01 21:14:19,174 - DCTAnalyser - INFO - DCT Analyser initialized with improved discrimination logic
+2025-10-01 21:14:19,174 - DCTAnalyser - INFO - Starting DCT-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png
+2025-10-01 21:14:19,200 - DCTAnalyser - INFO - Extracting 1024 blocks (32x32x1)
+2025-10-01 21:14:19,221 - DCTAnalyser - INFO - Extracted 1024 blocks from file with entropy 7.93
+2025-10-01 21:14:19,222 - DCTAnalyser - INFO - Loaded 1024 blocks for analysis
+2025-10-01 21:14:20,910 - DCTAnalyser - INFO - Successfully processed 1024 coefficient blocks
+2025-10-01 21:14:20,930 - DCTAnalyser - INFO - Feature scores - LSB: 0.100, Histogram: 0.100, Frequency: 0.000, Coefficient: 0.800
+2025-10-01 21:14:20,931 - DCTAnalyser - INFO - Analysis complete for C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\stego\20.png: Result=CLEAN, Confidence=0.100, Anomaly_Score=0.1800

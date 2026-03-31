@@ -1,0 +1,15 @@
+2025-09-26 22:34:04,107 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-09-26 22:34:04,108 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-09-26 22:34:04,109 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-09-26 22:34:04,110 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.jpeg
+2025-09-26 22:34:04,558 - CNNAnalyser - INFO - Analysis complete. Result: STEGO with 0.56 confidence (time: 0.45s)
+2025-09-26 22:34:37,390 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-09-26 22:34:37,393 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-09-26 22:34:37,393 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-09-26 22:34:37,394 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\1.png
+2025-09-26 22:34:37,758 - CNNAnalyser - INFO - Analysis complete. Result: CLEAN with 0.44 confidence (time: 0.36s)
+2025-09-26 22:34:59,977 - CNNAnalyser - INFO - Model initialized successfully with MobileNetV2 base
+2025-09-26 22:34:59,978 - CNNAnalyser - WARNING - Cover directory not found: data/datasets/cover
+2025-09-26 22:34:59,978 - CNNAnalyser - INFO - CNN Analyser initialized successfully. GPU available: False
+2025-09-26 22:34:59,979 - CNNAnalyser - INFO - Starting CNN-based steganalysis for: C:\Users\lmathope\Desktop\Dev\hyp\data\datasets\cover\2.png
+2025-09-26 22:35:00,288 - CNNAnalyser - INFO - Analysis complete. Result: STEGO with 0.68 confidence (time: 0.30s)
